@@ -1,3 +1,14 @@
+/*
+ * File: read.h
+ * Description: 
+ *      This header file defines structures and function prototypes for reading and managing 
+ *      the address book data. The `add_book` structure is used to store individual contact 
+ *      information (name, email, phone, city). The `read_info` structure is used to handle 
+ *      operations such as insertion, editing, searching, and deletion of contacts. 
+ *      This file also includes the `read_information` function prototype, which handles 
+ *      reading user input for various operations (insert, edit, search, delete).
+*/
+
 #ifndef READ_H
 #define READ_H
 

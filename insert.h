@@ -1,3 +1,9 @@
+/*
+ * File: insert.h
+ * Description: Header file for inserting new entries into the address book.
+ *              Declares the function for inserting data into the address book file.
+*/
+
 #ifndef INSERT_H
 #define INSERT_H
 

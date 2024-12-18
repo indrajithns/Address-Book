@@ -1,3 +1,12 @@
+/*
+ * File: insert.c
+ * Description: Provides functionality to insert new entries into the address book.
+ *              The data is appended to the file in a structured format.
+ * Functions:
+ *   - insert_data_to_addbook: Reads new entry details from the user and appends them 
+ *                             to the address book file in a formatted manner.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

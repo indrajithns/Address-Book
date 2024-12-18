@@ -1,3 +1,14 @@
+/*
+ * File: delete.c
+ * Description: This file provides functionalities to manage and delete records 
+ *              from an address book. It includes functions to read data, skip 
+ *              specific entries, and update the file with modified records.
+ * Functions:
+ *   - read_delete_data: Reads the data from a file into an array of address book entries.
+ *   - skip_array_index: Writes all entries except the specified one back to the file.
+ *   - delete_data: Main function to delete specific records based on user input.
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

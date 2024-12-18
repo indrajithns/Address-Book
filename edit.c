@@ -1,3 +1,15 @@
+/*
+ * File: edit.c
+ * Description: Provides functions to edit records in the address book.
+ *              Reads data from the file, identifies the record to edit,
+ *              and updates the file with the new information.
+ * Functions:
+ *   - read_edit_data: Reads address book data from the file into an array.
+ *   - get_array_position: Finds the position of a specific record in the array.
+ *   - write_edit_data: Writes updated information back to the file at the correct position.
+ *   - edit_data: Main function to manage the editing process, including file operations.
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

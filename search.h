@@ -1,3 +1,13 @@
+/*
+ * File: search.h
+ * Description: This header file contains function declarations for searching
+ *              and reading data from an address book. It includes prototypes 
+ *              for functions that allow searching by different criteria 
+ *              (name, email, phone, city) and reading the search data from 
+ *              a file. It also includes necessary structures for handling 
+ *              the address book data.
+*/
+
 #ifndef SEARCH_H
 #define SEARCH_H
 

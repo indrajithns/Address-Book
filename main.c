@@ -1,3 +1,14 @@
+/*
+ * File: main.c
+ * Description: Main program for managing an address book. It allows the user to 
+ *              perform operations such as insert, edit, search, delete, and display 
+ *              contact information from a file-based address book.
+ * Functions:
+ *   - read_file_name: Reads the file name from the user to open the address book.
+ *   - main: Main program that presents a menu to the user and calls the appropriate 
+ *           functions for insert, edit, search, delete, and display operations.
+*/
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

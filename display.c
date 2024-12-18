@@ -1,3 +1,13 @@
+/*
+ * File: display.c
+ * Description: Provides functions to display the contents of an address book. 
+ *              Reads data from a file, stores it in an array, and prints it in a 
+ *              formatted manner.
+ * Functions:
+ *   - print_add_book: Prints the formatted details of all address book entries.
+ *   - display_add_book: Reads address book data from a file and displays it.
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

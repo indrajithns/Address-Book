@@ -1,3 +1,18 @@
+/*
+ * File: read.c
+ * Description: Provides functions to read and process user input for managing 
+ *              address book entries. Includes functionality to insert, edit, 
+ *              search, and delete contact information. Also includes helper 
+ *              functions for formatting and validating data.
+ * Functions:
+ *   - add_space: Adds spaces to a string to ensure it is 32 characters long.
+ *   - read_by: Reads data based on a selected field (name, email, phone, city) 
+ *              and prepares it for further operations like editing or searching.
+ *   - read_information: Reads the user's input for different operations (insert, 
+ *                        edit, search, delete) and stores it in appropriate 
+ *                        structures.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
